@@ -306,4 +306,3 @@ def predict(X, w, b):
         p[i] = 0 if f_wb < 0.1 else 1
     
     return p
-
