@@ -1,7 +1,8 @@
-Neural Network learning project using MNIST dataset and course guidelines from Andrew Ng. 
+Neural Network learning project using MNIST handwritten numbers dataset and course guidelines from Andrew Ng. 
 https://www.coursera.org/specializations/machine-learning-introduction
 
 mnist_id.py script does the following:
+
     1. Reads a sample MNIST dataset curated at: https://www.kaggle.com/datasets/hojjatk/mnist-dataset 
     and splits into a training set and test set. 
     2. Sets up a 3 layer neural network for handwritten number prediction.
@@ -12,7 +13,13 @@ mnist_id.py script does the following:
     and the model's accuracy in predicting the actual value. The first 57 images are examples of 
     True readings while the final 8 images are examples of False readings. 
 
-See:
+
+Visual Test Result Sample at a glance: 
+
+![mnist_model_accuracy](https://github.com/mdghafoor/MLProject/assets/158994486/b9a2b870-e42b-4b06-9809-bcb83c7baa24)
+ 
+For more details see:
+    
     1. Training set: mnist_test.csv.gz
     2. Test set: mnist_train.csv.gz
     3. Keras model: mnist_model.keras 
